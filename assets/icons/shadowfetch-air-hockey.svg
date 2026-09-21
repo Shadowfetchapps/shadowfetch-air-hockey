@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="plate" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#102028"/>
+      <stop offset="1" stop-color="#070b0e"/>
+    </linearGradient>
+    <linearGradient id="rim" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#b8e8f4"/>
+      <stop offset="1" stop-color="#2a6a78"/>
+    </linearGradient>
+    <radialGradient id="ice" cx="40%" cy="35%" r="60%">
+      <stop offset="0" stop-color="#7ad4e8" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#0c1418" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect x="36" y="36" width="440" height="440" rx="118" fill="url(#plate)"/>
+  <rect x="36" y="36" width="440" height="440" rx="118" fill="url(#ice)"/>
+  <rect x="48" y="48" width="416" height="416" rx="108" fill="none" stroke="url(#rim)" stroke-width="10"/>
+  <rect x="150" y="118" width="212" height="276" rx="28" fill="#16303a" stroke="#7ad4e8" stroke-width="8"/>
+  <line x1="150" y1="256" x2="362" y2="256" stroke="#cfeef6" stroke-width="4"/>
+  <circle cx="256" cy="320" r="34" fill="#3fd0e4" stroke="#e8fbff" stroke-width="5"/>
+  <circle cx="256" cy="198" r="22" fill="#111418" stroke="#9ad8e6" stroke-width="5"/>
+</svg>

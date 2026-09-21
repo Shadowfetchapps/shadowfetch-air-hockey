@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Shadowfetch Air Hockey
+GenericName=Air Hockey
+Comment=First to 7, timed, and practice for Linux
+Exec=shadowfetch-air-hockey
+TryExec=shadowfetch-air-hockey
+Icon=shadowfetch-air-hockey
+Terminal=false
+Categories=Game;
+Keywords=air hockey;puck;mallet;shadowfetch;
+StartupNotify=true
+StartupWMClass=Shadowfetch Air Hockey
