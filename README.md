@@ -6,6 +6,17 @@ First to 7, timed, and practice for Linux. Immediate mallet, Jolt puck, no cheat
 
 ![Table](docs/screenshots/table.png)
 
+## Download
+
+Get `shadowfetch-air-hockey-1.0.0-linux-x86_64.tar.gz` from the [latest release](https://github.com/Shadowfetchapps/shadowfetch-air-hockey/releases/latest) (x86_64 Linux), then:
+
+```bash
+sha256sum -c shadowfetch-air-hockey-1.0.0-linux-x86_64.tar.gz.sha256
+tar -xzf shadowfetch-air-hockey-1.0.0-linux-x86_64.tar.gz
+cd shadowfetch-air-hockey-1.0.0-linux-x86_64
+./tools/install_linux.sh
+```
+
 ## Run
 
 ```bash
